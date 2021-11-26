@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">DepartmentManagement</string>
+    <string name="nhan_vien">Nhân viên</string>
+    <string name="them">Thêm</string>
+    <string name="sua">Sửa</string>
+    <string name="xoa">Xóa</string>
+    <string name="phong_ban">Phòng ban</string>
+    <string name="liet_ke_nhan_vien">Liệt kê nhân viên</string>
+    <string name="theo_phong_ban">Theo phòng ban</string>
+    <string name="que_hai_phong">Quê Hải Phòng</string>
+    <string name="them_nhan_vien">Thêm nhân viên</string>
+    <string name="nhap_id">Nhập id</string>
+    <string name="nhap_ten">Nhập tên</string>
+    <string name="nhap_que_quan">Nhập quê quán</string>
+    <string name="chon_ngay">Chọn ngày</string>
+    <string name="ve_trang_chu">Về trang chủ</string>
+    <string name="chon_phong_ban">Chọn phòng ban</string>
+    <string name="gan_nhan_vien">Gán nhân viên</string>
+    <string name="sua_thong_tin_nhan_vien">Sửa thông tin nhân viên</string>
+    <string name="tim_kiem">Tìm kiếm</string>
+    <string name="xoa_thong_tin_nhan_vien">Xóa thông tin nhân viên</string>
+    <string name="them_phong_ban">Thêm phòng ban</string>
+    <string name="nhap_mo_ta">Nhập mô tả</string>
+    <string name="sua_thong_tin_phong_ban">Sửa thông tin phòng ban</string>
+    <string name="xoa_thong_tin_phong_ban">Xóa thông tin phòng ban</string>
+    <string name="danh_sach_nhan_vien_que_hai_phong">Danh sách nhân viên quê Hải Phòng</string>
+    <string name="gan_nhan_vien_vao_phong_ban">Gán nhân viên vào phòng ban</string>
+    <string name="liet_ke_nhan_vien_theo_phong_ban">Liệt kê nhân viên theo phòng ban</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dp_20"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.utils.AssignEmployeeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gan_nhan_vien_vao_phong_ban"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_30" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_50">
+
+        <EditText
+            android:id="@+id/edit_text_search_employee_assign_employee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/button_search_employee_assign_employee"
+            android:autofillHints="name"
+            android:hint="@string/nhap_id"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/button_search_employee_assign_employee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/dp_10"
+            android:background="@color/blue"
+            android:text="@string/tim_kiem"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_view_select_department_assign_employee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:text="@string/chon_phong_ban"
+            android:textSize="@dimen/sp_16" />
+
+        <Spinner
+            android:id="@+id/spinner_select_department_assign_employee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_toEndOf="@id/text_view_select_department_assign_employee"
+            android:background="@color/blue"
+            android:text="@string/chon_ngay" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edit_text_id_assign_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:autofillHints="name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_name_assign_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:autofillHints="name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_date_ob_assign_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:autofillHints="name"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edit_text_hometown_assign_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:autofillHints="name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_department_assign_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:autofillHints="name"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button_do_assign_employee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_50"
+        android:background="@color/blue"
+        android:text="@string/gan_nhan_vien" />
+
+    <Button
+        android:id="@+id/button_back_assign_employee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/blue"
+        android:text="@string/ve_trang_chu" />
+
+</LinearLayout>

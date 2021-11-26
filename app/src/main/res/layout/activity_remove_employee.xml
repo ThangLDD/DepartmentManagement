@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/dp_40"
+    android:layout_marginTop="@dimen/dp_20"
+    android:layout_marginRight="@dimen/dp_40"
+    android:layout_marginBottom="@dimen/dp_20"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.employee.RemoveEmployeeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xoa_thong_tin_nhan_vien"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_30" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_50">
+
+        <EditText
+            android:id="@+id/edit_text_search_employee_remove_employee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/button_search_employee_remove_employee"
+            android:autofillHints="name"
+            android:hint="@string/nhap_id"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/button_search_employee_remove_employee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/dp_10"
+            android:background="@color/blue"
+            android:text="@string/tim_kiem"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edit_text_id_remove_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:autofillHints="name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_name_remove_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:autofillHints="name"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/edit_text_date_ob_remove_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:autofillHints="name"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edit_text_hometown_remove_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:autofillHints="name"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button_do_remove_employee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/blue"
+        android:text="@string/xoa" />
+
+    <Button
+        android:id="@+id/button_back_remove_employee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/blue"
+        android:text="@string/ve_trang_chu" />
+
+</LinearLayout>

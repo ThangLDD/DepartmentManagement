@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dp_20"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.utils.ListEmployeeByHometownActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/danh_sach_nhan_vien_que_hai_phong"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_30" />
+
+    <ListView
+        android:id="@+id/listView_employee_hometown"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_440"
+        android:layout_marginTop="@dimen/dp_10" />
+
+    <Button
+        android:id="@+id/button_back_list_employee_hometown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/blue"
+        android:text="@string/ve_trang_chu" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/dp_20"
+    android:layout_marginRight="@dimen/dp_20"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.department.AddDepartmentActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/them_phong_ban"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_30" />
+
+    <EditText
+        android:id="@+id/edit_text_id_add_department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_50"
+        android:layout_marginRight="@dimen/dp_20"
+        android:autofillHints="name"
+        android:hint="@string/nhap_id"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_name_add_department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_20"
+        android:autofillHints="name"
+        android:hint="@string/nhap_ten"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_description_add_department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_20"
+        android:autofillHints="name"
+        android:hint="@string/nhap_mo_ta"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button_do_add_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_50"
+        android:background="@color/blue"
+        android:text="@string/them" />
+
+    <Button
+        android:id="@+id/button_back_add_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/blue"
+        android:text="@string/ve_trang_chu" />
+
+</LinearLayout>
